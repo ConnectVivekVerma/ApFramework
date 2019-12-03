@@ -1,8 +1,14 @@
-# ApFramework
 
 ApFramework abstracts out cross cutting concerns like authorization, validation, logging, performance monitoring etc. hence keeps code clean without polluting other layers of code.
 
 Additionally it gives predefined functionality to add validation and authorization to processing requests.
+
+### Key Features:
+- Lightweight async framework.
+- RequestAuthorization
+- RequestValidation
+- Pipeline to inject / add additional  actions   
+- Composite pattern - Requests can be composed by adding Sub-Requests to Parent-Request. All authorizations and validations executed before executing child main action. 
 
 ### To begin lets assume we have a function to Save Empoyee.
  ```csharp
@@ -117,4 +123,3 @@ async Task SavePerformanceLog(IRequest request, IDictionary<string, object> cont
        await SavePerformanceStats(request);
   }
 ```
-
