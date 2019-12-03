@@ -8,7 +8,7 @@ Additionally it gives predefined functionality to add validation and authorizati
 - RequestAuthorization
 - RequestValidation
 - Pipeline to inject / add additional  actions   
-- Composite pattern - Requests can be composed by adding Sub-Requests to Parent-Request. All authorizations and validations executed before executing child main action. 
+- Composite pattern - Requests can be composed by adding Sub-Requests to Parent-Request. All authorizations and validations executed before executing request actions. 
 
 ### To begin lets assume we have a function to Save Empoyee.
  ```csharp
