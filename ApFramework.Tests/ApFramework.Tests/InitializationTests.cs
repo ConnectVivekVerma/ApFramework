@@ -10,16 +10,6 @@ namespace ApFramework.Tests
     public class InitializationTests
     {
         [Fact]
-        public async Task RequestProcessorShouldIntializeWithRegisteredAuthorizerAndValidator()
-        {
-            var contextBag = ApFrameworkHelper.GetEmptyBag();
-
-            //var request = new QueryRequest<string>(ProcessRequest);
-            var processor = new RequestProcessor();
-
-        }
-
-        [Fact]
         public async Task VerifyComponentsHookUpCorrectly()
         {
             IServiceCollection services = new ServiceCollection();
