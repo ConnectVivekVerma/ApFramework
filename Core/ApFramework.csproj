@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.5</TargetFramework>
+    <Description>Application framework for managing cross cutting concerns</Description>
+    <PackageTags>Framework for Cross Cutting Concerns</PackageTags>
+    <PackageReleaseNotes>First cut</PackageReleaseNotes>
+    <Authors>Vivek Verma</Authors>
+    <Company>ConnectWithVivekVerma@gmail.com</Company>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <Version>1.0.1</Version>
+    <PackageId>ApFramework</PackageId>
+    <Title>ApFramework</Title>
+    <RepositoryUrl>https://github.com/ConnectVivekVerma/ApFramework</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants />
+  </PropertyGroup>
+
+</Project>
